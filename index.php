@@ -1,8 +1,8 @@
 <?php
-print 'Hello people <br /> I am going through php';
-// echo ("ABCD", "EFGH"); not accected
-print 'Hello';
-print 'Hello';
+
+include 'include/heading.html;
+
+echo "Today is Friday, we\'re going to the zoo.";
 
 
 ?>
