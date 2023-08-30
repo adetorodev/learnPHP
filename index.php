@@ -1,78 +1,94 @@
 <?php
+// $x = 5;
+// $y = '5';
+// if($x == $y){
+//     echo 'Yes';
+// }
+// if($x === $y){
+//     echo 'Yes';
+// }else {
+//     echo 'No';
+// }
 
-// include_once 'include/heading.html';
-// include_once 'include/heading.html';
+// $a = (7 == 4 ? 'Yes' : 'No');
+// echo $a;
+
+// $b = 20;
+// switch($b){
+//     case 10:
+//         echo "Chocolate <BR>";
+//         echo "it is 10";
+//         break;
+//     case 20:
+//         echo "Brownish <BR>";
+//         break;
+//     case 7:
+//         echo "Yelowish <BR>";
+//         break;
+//     default:
+//         echo "None of the above <BR>";
+// }
+
+// for (initial value; test condition; modification to
+// value)
+// {
+// //Do Some Task
+// }
+
+// for ($c = 1; $c < 5; ++$c){
+//     echo 'The value of $c is '.$c.'<BR>';
+// }
 
 
-// echo 'Today is Friday, we\'re going to the zoo.';
-// header('Location: http://example.com');
-// As the names suggest, the include_once and require_once
-// statements only “copy and paste” the code into the file once
-// Constants, Variables, Data Types
-// and Operators
-// define ('BASIC_NUMBER', 849586586);
-// echo BASIC_NUMBER
+// foreach ($array as $value) {
+//     //code to be executed;
+// }
+// foreach ($array as $key=>$value) {
+//     //code to be executed;
+// }
 
-// $x = 7;
-// echo $x;
+// $arr1 = array(11, 12, 13, 14, 15);
+// foreach ($arr1 as $num){
+//     echo 'The number is '.$num.'<BR>';
+// }
 
-// var_dump($x); // to verify the data type of a variable
-# Type Casting
-# $p = (int)4.6;
-# echo var_dump($p);
-// $x += 5;
-// echo $x;
+// $arr2 = array('Aaron'=>12, 'Ben'=>23, 'Carol'=>35);
+// foreach ($arr2 as $name=>$age){
+//     echo $name.' is '.$age.' years old.<BR>';
+// }
 
-// $p = 3;
-// echo $p;
-// echo ++$p;
+// while (condition is true)
+// {
+// //do A
+// }
 
-#String
-// $msg = 'Hello';
-// $areacode = "(208)";
-// $contact = '+1' . $areacode . '1234567';
-// echo '<BR>'.$contact;
-// $str1 = 'Good Day!';
-// echo '<BR>'.strlen($str1);
-// $str2 = 'Hello World';
-// $str3 = strtolower($str2);
-// $str4 = strtoupper($str2);
-// echo '<BR>'.$str2;
-// echo '<BR>'.$str3;
-// echo '<BR>'.$str4;
-// echo date('d-M-Y', strtotime("+ 10 hours"));
+// $d = 1;
 
-// $secondArr = array(11, 16, 4, 9, 12);
-// echo $secondArr[3];
-// $assocArr = array(
-//     'Peter' => 11,
-//     'Jane' => 16,
-//     'Paul' => 12
-//     );
-// echo $assocArr['Paul'];
-// Array can be use to store string
-// $fruitArr = array('Apple', 'Banana', 'Coconut');
-// echo $fruitArr[1];
+// while ($d < 5)
+// {
 
-// $myArray = array(2, 5.1, 'PHP', 105);
-// var_dump($myArray);
-// print_r($myArray)
+//     echo 'The value of $d is '.$d.'<BR>';
 
-// $addDemo = array(1, 5, 3, 9);
-// $addDemo[] = 7;
-// print_r($addDemo);
+//     $d++;
+// }
 
-// $addDemoAssoc = array('Peter'=>20, 'Jane'=>15);
-// $addDemoAssoc['James'] = 17;
-// print_r($addDemoAssoc);
+// do {
+//     //some tasks
+// } while (condition is true);
 
-// $colors = array("red", "black", "pink", "white");
-// array_splice($colors, 2);
-// print_r($colors);
+// $e = 100;
+// do {
+//     echo 'The value is '.$e;
+//     $e++;
+// }while ($e < 0)
 
-$indexArrDemo = array(11, 4, 5, 1, 2, 5, 6);
-$assocArrDemo = array('A'=>12, 'B'=>5, 'C'=>20);
-echo array_search(5, $indexArrDemo).'<BR>';
-echo array_search(20, $assocArrDemo).'<BR>';
-var_dump(array_search('B', $assocArrDemo));
+
+for ($i = 0; $i < 6; ++$i)
+{
+    echo '$i = '.$i.', ';
+    if ($i == 4)
+        continue;
+    echo 'First.';
+    echo 'Second.<BR>';
+}
 ?>
